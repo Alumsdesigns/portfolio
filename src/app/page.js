@@ -6,7 +6,6 @@ import ProjectsSection from './components/ProjectsSection';
 import Footer from './components/Footer';
 import AchievementsSection from './components/AchievementsSection';
 import ContactMe from './components/ContactForm';
-import ProjectPage from './components/ProjectPage';
 
 export default function Home() {
   return (
@@ -18,7 +17,6 @@ export default function Home() {
         <AboutSection />
         <ProjectsSection />
         <ContactMe />
-        {/* <ProjectPage /> */}
       </div>
       <Footer />
     </main>
