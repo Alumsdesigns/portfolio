@@ -1,0 +1,11 @@
+/* ContactMe.module.css */
+.linkedinIcon {
+  cursor: pointer;
+  background-color: transparent; /* Initial background color is transparent */
+  transition: background-color 0.3s ease-in-out;
+}
+
+.linkedinIcon:hover {
+  cursor: grab;
+  background-color: #0077b5; /* Apply blue background color on hover */
+}
