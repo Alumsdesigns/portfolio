@@ -216,7 +216,7 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white" id="about">
+    <section className="text-white mb-4">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 pb-4">
         {/* <div className="md:grid md:grid-cols-2 gap-8 items-center"> */}
         <div className="flex flex-col items-center justify-center gap-4">
@@ -233,7 +233,7 @@ const AboutSection = () => {
             height={350}
           />
         </div>
-        <div className="mt-4 md:mt-0 text-left flex flex-col h-full ">
+        <div className=" md:mt-0 text-left flex flex-col h-full ">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-white opacity-70 lg:text-lg">
             Hi, I am Damaris, and on a mission to elevate user experiences

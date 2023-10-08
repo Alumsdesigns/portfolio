@@ -119,7 +119,9 @@ const AchievementsSection = () => {
                 {/* Show an empty string if animation hasn't started yet */}
                 {achievement.postfix}
               </h2>
-              <p className="text-[#ADB7BE] text-base">{achievement.metric}</p>
+              <p className="text-[#ADB7BE] text-base" id="about-title">
+                {achievement.metric}
+              </p>
             </div>
           );
         })}
