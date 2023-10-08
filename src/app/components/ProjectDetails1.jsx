@@ -28,7 +28,7 @@ const ProjectDetails1 = ({ onClose }) => {
 
       <div className="w-full h-full overflow-y-scroll">
         <img
-          src="/images/FinialOctADAS.jpg"
+          src="/images/FinialNovADAS.jpg"
           alt="Project Image"
           className="w-full"
         />
