@@ -33,10 +33,11 @@ const ProjectPage = ({ project }) => {
       <div className="container">
         <div>
           <Image
-            src="/images/Oct2xAlumStFinalP1.jpg"
+            src="/images/FinialOctADAS.jpg"
             alt="Project Image"
             width={1920} // Set the image width
             height={1080} // Set the image height
+            priority={true}
           />
         </div>
       </div>
