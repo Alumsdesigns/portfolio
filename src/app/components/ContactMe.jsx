@@ -1,7 +1,6 @@
 'use client';
 import React, { useState } from 'react';
 import LinkedinIcon from '../../../public/linkedin-icon.svg';
-import Link from 'next/link';
 import Image from 'next/image';
 import styles from './ContactMe.module.css';
 
@@ -25,6 +24,7 @@ const ContactMe = () => {
               src={LinkedinIcon}
               alt="Linkedin Icon"
               className="w-12 h-12"
+              priority={true}
             />
           </a>
         </div>
