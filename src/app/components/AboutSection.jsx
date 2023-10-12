@@ -160,6 +160,29 @@ const TAB_DATA = [
         <li className="relative group bg-secondary-500  text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg">
           <span className="relative z-10">User-Centered Design</span>
         </li>
+        <li className="relative group bg-primary-500  text-white px-2 py-2 border-primary-500 animate-shine border-4 r rounded-lg">
+          <span className="relative z-10">Photoshop</span>
+        </li>
+        <li className="relative group bg-secondary-500  text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg">
+          <span className="relative z-10">Motion Design (Animation)</span>
+        </li>
+        <li className="relative group bg-primary-500  text-white px-2 py-2 border-primary-500 animate-shine border-4 r rounded-lg">
+          <span className="relative z-10">Information Design</span>
+        </li>
+        <li className="relative group bg-secondary-500  text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg">
+          <span className="relative z-10">A/B Testing</span>
+        </li>
+        <li className="relative group bg-primary-500  text-white px-2 py-2 border-primary-500 animate-shine border-4 r rounded-lg">
+          <span className="relative z-10">Content Strategy</span>
+        </li>
+        <li className="relative group bg-secondary-500  text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg">
+          <span className="relative z-10">User Analytics</span>
+        </li>
+        <li className="relative group bg-primary-500  text-white px-2 py-2 border-primary-500 animate-shine border-4 r rounded-lg">
+          <span className="relative z-10">
+            User Testing and Research Methods
+          </span>
+        </li>
       </ul>
     ),
   },
@@ -168,7 +191,7 @@ const TAB_DATA = [
     id: 'education',
     content: (
       <ul className="list-none text-white opacity-70 pl-2 text-base lg:text-lg">
-        <li>Google Coursera Bootcamp</li>
+        <li>Google Coursera UX UI Design Bootcamp</li>
         <li>Business Degree from MSG Business School, London</li>
       </ul>
     ),
