@@ -28,7 +28,7 @@ const projectsData = [
   {
     id: 3,
     title: 'Coming soon..... ',
-    description: 'E-commerce Application - My local Dressmakers makeover',
+    description: 'E-commerce Application - My local Dressmakers',
     image: '/images/projects/3.png',
     tag: ['All', 'Web'],
     previewUrl: 'src/app/components/ProjectDetails2.jsx',
