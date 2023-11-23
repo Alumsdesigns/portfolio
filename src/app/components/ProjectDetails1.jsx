@@ -1,8 +1,8 @@
 import React from 'react';
-import Link from 'next/link';
 import ContactMe from './ContactMe';
 import Footer from './Footer';
 import Image from 'next/image';
+import LearningList from './LearningList';
 import VideoComponent from './VideoComponent';
 
 const ProjectDetails1 = ({ onClose }) => {
@@ -28,57 +28,28 @@ const ProjectDetails1 = ({ onClose }) => {
         </svg>
       </div>
 
-      <div className="w-full h-full overflow-y-scroll">
-        {/* VideoComponent in a two-column layout */}
-        {/* <div className="container mx-auto p-4 md:p-8 h-full flex flex-col ">
-          <div className="flex flex-col md:flex-col h-full"> */}
-        {/* Left Column (Title and Flows) */}
-        {/* <div className="md:w-1/4 flex-1 flex-col p-4 md:p-8">
-              <h1 className="text-4xl font-bold mb-4 font-playfair text-white">
-                Video Prototype
-              </h1>
-              <p className="text-lg mb-2">1. Click & Collect Flow</p>
-              <p className="text-lg">2. Booking Flow</p>
-            </div> */}
-
-        {/* Right Column (VideoComponent) */}
-        {/* <div className="md:w-1/2 flex-1 flex">
-              <VideoComponent />
-            </div>
-          </div>
-        </div> */}
-
+      <div className="w-full h-full overflow-y-scroll flex flex-col">
+        {/* Image Section */}
         <Image
           src="/images/FinalNoVideo.jpg"
           alt="Project Image"
-          width={1920} // Set the width of the image (adjust to your image's actual width)
-          height={1080} // Set the height of the image (adjust to your image's actual height)
-          layout="responsive" // This allows the image to fill its container while maintaining its aspect ratio
-          className="w-full h-full" // Apply Tailwind CSS classes to make the image fill the container
+          width={1920}
+          height={1080}
+          layout="responsive"
+          className="w-full h-full"
         />
-        <div className="flex flex-row items-center justify-center md:flex-row h-full">
-          {/* Left Column (Title and Flows) */}
-          {/* <div className="md:w-1/2  p-4">
-            <h1 className="text-4xl font-bold mb-4 font-playfair text-white">
-              Video Prototype
-            </h1>
-            <p className="text-lg mb-2">1. Click & Collect Flow</p>
-            <p className="text-lg">2. Booking Flow</p>
-          </div> */}
 
-          {/* Right Column (VideoComponent) */}
-          <div className="md:w-1/2 flex items-center justify-center">
+        {/* Video Section */}
+        <div className="flex items-center justify-center md:flex-row h-full mt-10 mb-20">
+          <div className="w-full md:w-1/2 flex items-center justify-center">
             <VideoComponent />
           </div>
         </div>
-        <Image
-          src="/images/FinialVideo.jpg"
-          alt="Project Image"
-          width={1920} // Set the width of the image (adjust to your image's actual width)
-          height={1080} // Set the height of the image (adjust to your image's actual height)
-          layout="responsive" // This allows the image to fill its container while maintaining its aspect ratio
-          className="w-full h-full" // Apply Tailwind CSS classes to make the image fill the container
-        />
+
+        {/* Second Image Section */}
+        <LearningList />
+
+        {/* ContactMe and Footer Sections */}
         <ContactMe />
         <Footer />
       </div>

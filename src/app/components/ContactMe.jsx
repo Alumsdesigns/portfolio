@@ -12,7 +12,9 @@ const ContactMe = () => {
     >
       <div className="z-10 text-center bg-black">
         <h5 className="text-4xl font-bold text-white mb-4">Let's Connect</h5>
-        <p className="text-[#ADB7BE] mb-4 max-w-md">Let's Collaborate</p>
+        <p className="text-[#ADB7BE] mb-4 text-white max-w-md">
+          Let's Collaborate
+        </p>
         <div className="socials flex justify-center gap-2 mb-6 bg-black">
           <a
             href="https://linkedin.com"
