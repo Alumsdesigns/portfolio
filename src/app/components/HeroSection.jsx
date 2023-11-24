@@ -47,21 +47,31 @@ const HeroSection = () => {
             <Link
               href="https://www.linkedin.com/in/damaris-alum/"
               passHref
-              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full
+              className="px-6 inline-block py-3 rounded-full
               mr-4 bg-gradient-to-br from-primary-500 to-secondary-500
-              hover:bg-slate-200 text-white"
+              hover:opacity-80  text-white"
             >
               {' '}
               Hire Me
             </Link>
+            {/* <Link
+              href="https://www.linkedin.com/in/damaris-alum/"
+              passHref
+              className="px-6 inline-block py-3 rounded-full mr-4 relative overflow-hidden"
+            >
+              <span className="relative z-10 bg-gradient-to-br from-primary-500 to-secondary-500 text-white">
+                Hire Me
+              </span>
+              <span className="absolute inset-0 bg-gradient-to-br from-primary-500 to-secondary-500 opacity-0 hover:opacity-50 transition-opacity duration-300"></span>
+            </Link> */}
 
             <a
               href={cvFilePath}
               download
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
+              className="px-1 inline-block py-1 sm:border-5 rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <div className="flex justify-center items-center">
-                <button className="bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+                <button className="bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2 ">
                   Download CV
                 </button>
               </div>

@@ -65,9 +65,9 @@ const ProjectsSection = () => {
   return (
     <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        My Projects
+        View My Projects
       </h2>
-      <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
+      <div className="text-white flex flex-row justify-center items-center gap-2 py-6 text-center">
         <ProjectTag
           onClick={() => handleTagChange('All')}
           name="All"
@@ -99,13 +99,14 @@ const ProjectsSection = () => {
               description={project.description}
               imgUrl={project.image}
               onClick={() => handleProjectCardClick(project)}
+              className="text-center"
             />
           </motion.li>
         ))}
       </ul>
       {/* Render project detail component conditionally */}
       {selectedProject && (
-        <div className="fixed top-0 left-0 right-0 bottom-0 z-50 flex items-center justify-center bg-black bg-opacity-80">
+        <div className="fixed top-0 left-0 right-0 bottom-0 z-50 flex items-center justify-center bg-black bg-opacity-80 text-center">
           {selectedProject.id === 1 && (
             <ProjectDetails1 onClose={handleClose} />
           )}

@@ -2,187 +2,637 @@
 import React, { useTransition, useState } from 'react';
 import Image from 'next/image';
 import TabButton from './TabButton';
+import { motion, useAnimation } from 'framer-motion';
 
 const TAB_DATA = [
   {
     title: 'Skills',
     id: 'skills',
     content: (
-      <ul className="pl-2 flex flex-wrap gap-6">
-        <li className="relative group bg-primary-500  text-white px-2 py-2 border-primary-500 animate-shine border-4 r rounded-lg">
+      <ul className="pl-2 flex flex-wrap justify-center md:justify-start gap-6">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-primary-500 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">UX Researcher</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-secondary-500  text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-secondary-500 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">UX Design</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-primary-500  text-white px-2 py-2 border-primary-500 animate-shine border-4 r rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-primary-500 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">UI Design</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-secondary-500  text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-secondary-500 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">User-centred Design</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-primary-500  text-white px-2 py-2 border-primary-500 animate-shine border-4 r rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-primary-500 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Interaction design</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-secondary-500  text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-secondary-500 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Information Visualization</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-primary-500  text-white px-2 py-2 border-primary-500 animate-shine border-4 r rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-primary-500 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Adobe XD</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-secondary-500  text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-secondary-500 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Figma</span>
-        </li>
-
-        <li className="relative group bg-primary-500  text-white px-2 py-2 border-primary-500 animate-shine border-4 r rounded-lg">
+        </motion.li>
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-primary-500 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Stanford Design Thinking</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-secondary-500  text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-secondary-500 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">User Journeys</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-primary-500  text-white px-2 py-2 border-primary-500 animate-shine border-4 r rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-primary-500 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Empathy Mapping</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-secondary-500  text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-secondary-500 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Usability Testing</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-primary-500  text-white px-2 py-2 border-primary-500 animate-shine border-4 r rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-primary-500 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Information Architecture</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-secondary-500  text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-secondary-500 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Site Maps</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-primary-500  text-white px-2 py-2 border-primary-500 animate-shine border-4 r rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-primary-500 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Page Layout</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-secondary-500  text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-secondary-500 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Wireframing</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-primary-500  text-white px-2 py-2 border-primary-500 animate-shine border-4 r rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-primary-500 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+        >
           Prototyping
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-secondary-500  text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-secondary-500 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Mockups</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-primary-500  text-white px-2 py-2 border-primary-500 animate-shine border-4 r rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-primary-500 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10"> Brand Identity</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-secondary-500  text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-secondary-500 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Typography</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-primary-500  text-white px-2 py-2 border-primary-500 animate-shine border-4 r rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-primary-500 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10"> Iconology</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-secondary-500  text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-secondary-500 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Logo Design</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-primary-500  text-white px-2 py-2 border-primary-500 animate-shine border-4 r rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-primary-500 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Digital Transformation</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-secondary-500  text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-secondary-500 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">User Personas</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-primary-500  text-white px-2 py-2 border-primary-500 animate-shine border-4 r rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-primary-500 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Responsiveness Web Design</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-secondary-500  text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-secondary-500 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Problem Solving</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-primary-500  text-white px-2 py-2 border-primary-500 animate-shine border-4 r rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-primary-500 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Brainstorming</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-secondary-500  text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-secondary-500 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Innovation</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-primary-500  text-white px-2 py-2 border-primary-500 animate-shine border-4 r rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-primary-500 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Communication</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-secondary-500  text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-secondary-500 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Art Direction</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-primary-500  text-white px-2 py-2 border-primary-500 animate-shine border-4 r rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-primary-500 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Agile Methodologies</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-secondary-500  text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-secondary-500 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Data Analysis</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-primary-500  text-white px-2 py-2 border-primary-500 animate-shine border-4 r rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-primary-500 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Accessibility WCAG</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-secondary-500  text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-secondary-500 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Responsive Web Design</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-primary-500  text-white px-2 py-2 border-primary-500 animate-shine border-4 r rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-primary-500 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10"> Shopify & Wix Development</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-secondary-500  text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-secondary-500 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Cross-functional Collaboration</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-primary-500  text-white px-2 py-2 border-primary-500 animate-shine border-4 r rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-primary-500 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Heuristic Evaluation</span>
-        </li>
+        </motion.li>
 
-        <li className="relative group bg-secondary-500  text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg">
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-secondary-500 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">User-Centered Design</span>
-        </li>
-        <li className="relative group bg-primary-500  text-white px-2 py-2 border-primary-500 animate-shine border-4 r rounded-lg">
+        </motion.li>
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-primary-500 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Photoshop</span>
-        </li>
-        <li className="relative group bg-secondary-500  text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg">
+        </motion.li>
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-secondary-500 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Motion Design (Animation)</span>
-        </li>
-        <li className="relative group bg-primary-500  text-white px-2 py-2 border-primary-500 animate-shine border-4 r rounded-lg">
+        </motion.li>
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-primary-500 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Information Design</span>
-        </li>
-        <li className="relative group bg-secondary-500  text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg">
+        </motion.li>
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-secondary-500 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">A/B Testing</span>
-        </li>
-        <li className="relative group bg-primary-500  text-white px-2 py-2 border-primary-500 animate-shine border-4 r rounded-lg">
+        </motion.li>
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-primary-500 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">Content Strategy</span>
-        </li>
-        <li className="relative group bg-secondary-500  text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg">
+        </motion.li>
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-secondary-500 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">User Analytics</span>
-        </li>
-        <li className="relative group bg-primary-500  text-white px-2 py-2 border-primary-500 animate-shine border-4 r rounded-lg">
+        </motion.li>
+        <motion.li
+          whileHover={{
+            y: [-2, 2, -2, 2, -1.5, 1.5, -0.5, 0.5, 0],
+          }}
+          transition={{
+            duration: 2,
+            ease: 'linear',
+            loop: Infinity,
+          }}
+          className="relative group bg-primary-500 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+        >
           <span className="relative z-10">
             User Testing and Research Methods
           </span>
-        </li>
+        </motion.li>
       </ul>
     ),
   },
@@ -191,8 +641,14 @@ const TAB_DATA = [
     id: 'education',
     content: (
       <ul className="list-none text-white opacity-70 pl-2 text-base lg:text-lg">
-        <li>Google Coursera UX UI Design Bootcamp</li>
-        <li>Business Degree from MSG Business School, London</li>
+        <li>
+          <span style={{ color: 'white' }}>&#10036;</span> Google Coursera UX UI
+          Design Bootcamp
+        </li>
+        <li>
+          <span style={{ color: 'white' }}>&#10036;</span> Business Degree from
+          MSG Business School, London
+        </li>
       </ul>
     ),
   },
@@ -241,7 +697,6 @@ const AboutSection = () => {
   return (
     <section className="text-white mb-4">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 pb-4">
-        {/* <div className="md:grid md:grid-cols-2 gap-8 items-center"> */}
         <div className="flex flex-col items-center justify-center gap-4">
           <Image
             src="/images/about-image2.png"
@@ -256,7 +711,7 @@ const AboutSection = () => {
             height={350}
           />
         </div>
-        <div className=" md:mt-0 text-left flex flex-col h-full ">
+        <div className=" md:mt-0 mt-4 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-white opacity-70 lg:text-lg">
             Hi, I am Damaris, and on a mission to elevate user experiences
@@ -287,7 +742,7 @@ const AboutSection = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-row justify-start mt-8  text-2xl font-bold lg:text-lg">
+      <div className="flex flex-col sm:flex-row justify-start mt-8 text-2xl font-bold lg:text-lg">
         <TabButton
           selectTab={() => handleTabChange('skills')}
           active={tab === 'skills'}
@@ -310,6 +765,7 @@ const AboutSection = () => {
           Certifications{' '}
         </TabButton>
       </div>
+
       <div className="m-8 pb-8">
         {TAB_DATA.find((t) => t.id === tab).content}
       </div>
