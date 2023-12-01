@@ -30,7 +30,7 @@ const ProjectDetails1 = ({ onClose }) => {
 
       <div className="w-full h-full overflow-y-scroll flex flex-col">
         {/* Image Section */}
-        <Image
+        {/* <Image
           src="/images/FinalNoVideo.jpg"
           alt="Project Image"
           width={1920}
@@ -38,6 +38,11 @@ const ProjectDetails1 = ({ onClose }) => {
           priority
           layout="responsive"
           className="w-full h-full"
+        /> */}
+        <img
+          src="/images/FinalNoVideo.jpg"
+          alt="Project Image"
+          className="w-full h-auto"
         />
 
         {/* Video Section */}
