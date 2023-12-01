@@ -33,8 +33,6 @@ const ProjectDetails1 = ({ onClose }) => {
         <Image
           src="/images/FinalNoVideo.jpg"
           alt="Project Image"
-          width={1920}
-          height={1080}
           layout="responsive"
           className="w-full h-full"
         />
