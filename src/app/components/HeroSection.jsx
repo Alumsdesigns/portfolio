@@ -18,6 +18,7 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
+              {/* eslint-disable-next-line react/no-unescaped-entities */}
               Hello, I am
             </span>
             <br></br>
@@ -46,7 +47,7 @@ const HeroSection = () => {
             it. I am currently adding projects and improvements as I go.
           </p>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            I invite you to view projects below. Let's embark on a design
+            I invite you to view projects below. Let us embark on a design
             transformation journey together!
           </p>
           <div>

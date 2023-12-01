@@ -20,7 +20,7 @@ const MyLocalDressmaker = () => {
         navigation flow, defining clear business goals. This collaboration
         resulted in a strategic separation of concerns, prioritized navigation,
         and a streamlined content hierarchy. Although
-        "www.mylocaldressmaker.com" is no longer online, you can explore
+        <a>www.mylocaldressmaker.com</a> is no longer online, you can explore
         snapshots of its past below and on web.archive.org. Aqua Ofosuene is
         very happy to be contacted as a reference.
       </p>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const LearningList = () => {
   return (
@@ -16,12 +17,12 @@ const LearningList = () => {
         </p>
         <p className="mb-2 md:text-lg">
           <span style={{ color: 'white' }}>&#10036;</span> It is important to
-          remember the user's perspective and how this contributes to the
+          remember the end user perspective and how this contributes to the
           success of the final design and business goals.
         </p>
         <p className="mb-2 md:text-lg">
           <span style={{ color: 'white' }}>&#10036;</span> Details are important
-          but don't get too caught up; it halts your design process.
+          but do not get too caught up; it halts your design process.
         </p>
       </div>
 
@@ -46,7 +47,13 @@ const LearningList = () => {
         <h3 className="text-xl md:text-2xl font-bold mb-4 md:mb-0 text-center">
           Thank you, all feedback welcomed
         </h3>
-        <img src="/images/cone.png" alt="Cone" className="w-12 h-17 pl-4" />
+        <Image
+          src="/images/cone.png"
+          alt="Cone"
+          width={48}
+          height={68}
+          className="pl-4"
+        />
       </div>
     </div>
   );
