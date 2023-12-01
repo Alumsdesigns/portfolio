@@ -11,15 +11,15 @@ const projectsData = [
   {
     id: 1,
     title: 'Mobile Alumnus Steakhouse & Bar App',
-    description: 'Transforming the CX in the food industry',
+    description: 'Full case study transforming the CX in the food industry',
     image: '/images/projects/1.png',
     tag: ['All', 'Mobile'],
     previewUrl: 'src/app/components/ProjectDetails1.jsx',
   },
   {
     id: 2,
-    title: 'Live Examples & Snippets',
-    description: 'Different UI Design work examples & videos',
+    title: 'Coming soon.....',
+    description: 'Different UI Design work examples & videos to be added soon',
     image: '/images/projects/2.png',
     tag: ['All', 'Web'],
     gitUrl: '/',
@@ -28,7 +28,7 @@ const projectsData = [
   {
     id: 3,
     title: 'Coming soon..... ',
-    description: 'E-commerce Application - My local Dressmakers',
+    description: 'Different Case Studies of UX UI Research to be added soon',
     image: '/images/projects/3.png',
     tag: ['All', 'Web'],
     previewUrl: 'src/app/components/ProjectDetails2.jsx',
