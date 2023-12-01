@@ -33,6 +33,9 @@ const ProjectDetails1 = ({ onClose }) => {
         <Image
           src="/images/FinalNoVideo.jpg"
           alt="Project Image"
+          width={1920}
+          height={1080}
+          priority
           layout="responsive"
           className="w-full h-full"
         />
@@ -49,7 +52,7 @@ const ProjectDetails1 = ({ onClose }) => {
 
         {/* ContactMe and Footer Sections */}
         <ContactMe />
-        <Footer />
+        <Footer className="bg-black text-white" />
       </div>
     </div>
   );
