@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <main className="flex flex-col bg-[#121212] min-h-screen m-0 p-0 bg-black">
       <Navbar />
-      <div className="container mt-24 mx-auto px-12 py-4">
+      <div className="container mt-24 mx-auto px-12 py-0">
         <HeroSection />
         <AchievementsSection />
         <AboutSection />

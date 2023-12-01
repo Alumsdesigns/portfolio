@@ -18,8 +18,8 @@ const projectsData = [
   },
   {
     id: 2,
-    title: 'Coming soon..... ',
-    description: 'Different UI Design examples & videos',
+    title: 'Live Examples & Snippets',
+    description: 'Different UI Design work examples & videos',
     image: '/images/projects/2.png',
     tag: ['All', 'Web'],
     gitUrl: '/',

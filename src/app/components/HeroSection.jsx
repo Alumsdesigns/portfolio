@@ -8,7 +8,7 @@ import Link from 'next/link';
 const HeroSection = () => {
   const cvFilePath = '/DamarisCV.pdf';
   return (
-    <section className="lg:py-16">
+    <section className="lg:py-6">
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -38,10 +38,16 @@ const HeroSection = () => {
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
             Welcome, I am dedicated to enhancing online experiences for all,
             achieving business goals, and prioritizing user-centric design.
-            Explore my projects and LinkedIn. Let's embark on a design
+            Explore my projects and LinkedIn.
+          </p>
+          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+            This website is a showcase in itself of my design and development
+            skills, enjoy discovering interactive features as you engage with
+            it. I am currently adding projects and improvements as I go.
+          </p>
+          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+            I invite you to view projects below. Let's embark on a design
             transformation journey together!
-            <br />
-            Currently I am adding to the projects sections, so stay tunned
           </p>
           <div>
             <Link

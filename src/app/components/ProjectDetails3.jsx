@@ -27,11 +27,11 @@ const ProjectDetails3 = ({ onClose }) => {
           Exciting UX Design Project Number 3 & more are in the making!
         </h2>
         <p className="text-lg mt-4 mb-4 text-center">
-          While you're waiting, take a look at the first project my Mobile
+          While you are waiting, take a look at the first project my Mobile
           Alumnus Steakhouse & Bar App, in Projects. <br />
           <br />
           If you have any questions or want to discuss your UX design needs,
-          please don't hesitate to reach out to us.
+          please do not hesitate to reach out to me.
         </p>
       </div>
     </div>
