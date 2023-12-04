@@ -17,7 +17,7 @@ const ContactMe = () => {
         </p>
         <div className="socials flex justify-center gap-2 mb-6 bg-black">
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/damaris-alum/"
             target="_blank"
             rel="noopener noreferrer"
             className={`group relative inline-block ${styles.linkedinIcon}`}
