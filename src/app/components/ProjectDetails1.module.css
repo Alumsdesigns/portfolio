@@ -12,10 +12,14 @@
 
 .learning-list-title {
   font-family: 'Philosopher-Bold';
+  font-size: 32px;
+  font-weight: bold;
 }
 
 .learning-list-text {
   font-family: 'Philosopher-Regular';
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .white-text {
