@@ -47,7 +47,7 @@ const ProjectDetails1 = ({ onClose }) => {
 
         <img
           src="/images/heroimg.png"
-          alt="Project Image"
+          alt="Hero Image"
           className="object-contain w-full h-full mx-0 my-0"
         />
 
