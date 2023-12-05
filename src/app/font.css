@@ -1,0 +1,17 @@
+/* styles/LearningList.module.css */
+
+@font-face {
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Philosopher Regular'), local('Philosopher-Regular'),
+    url('/fonts/Philosopher/Philosopher-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Philosopher Bold'), local('Philosopher-Bold'),
+    url('/fonts/Philosopher/Philosopher-Bold.ttf') format('truetype');
+}

@@ -1,9 +1,9 @@
 import React from 'react';
 import ContactMe from './ContactMe';
 import Footer from './Footer';
-import Image from 'next/image';
 import LearningList from './LearningList';
 import VideoComponent from './VideoComponent';
+import Moodboard from './Moodboard';
 
 const ProjectDetails1 = ({ onClose }) => {
   return (
@@ -39,10 +39,23 @@ const ProjectDetails1 = ({ onClose }) => {
           layout="responsive"
           className="w-full h-full"
         /> */}
-        <img
+        {/* <img
           src="/images/FinalNoVideo.jpg"
           alt="Project Image"
           className="w-full h-auto"
+        /> */}
+        <img
+          src="/images/NoMoodboard.jpg"
+          alt="Project Image"
+          className="w-full h-auto"
+        />
+
+        <Moodboard />
+
+        <img
+          src="/images/HiFis.jpg"
+          alt="Project Image"
+          className="w-full h-auto mb-20"
         />
 
         {/* Video Section */}

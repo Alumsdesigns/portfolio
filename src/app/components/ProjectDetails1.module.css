@@ -1,0 +1,23 @@
+/* ProjectDetails1.module.css */
+
+@import url('../font.css');
+
+.project-details-title {
+  font-family: 'Philosopher-Bold';
+}
+
+.project-details-text {
+  font-family: 'Philosopher-Regular';
+}
+
+.learning-list-title {
+  font-family: 'Philosopher-Bold';
+}
+
+.learning-list-text {
+  font-family: 'Philosopher-Regular';
+}
+
+.white-text {
+  color: white;
+}

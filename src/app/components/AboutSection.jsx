@@ -677,7 +677,7 @@ const TAB_DATA = [
           <li> Google Coursera: Foundations of User Experience (UX) Design</li>
         </ol>
         <p className="text-white opacity-70">
-          View all Google certificates on my linkedin and contact me their
+          View all Google certificates on my linkedin and connect me their
         </p>
       </>
     ),
