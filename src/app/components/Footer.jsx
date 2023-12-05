@@ -11,6 +11,7 @@ const Footer = () => {
           width={50}
           height={50}
           priority
+          layout="fixed"
         />{' '}
         <div className="text-slate-100">
           <p>&copy; {new Date().getFullYear()} Damaris Alum</p>{' '}
