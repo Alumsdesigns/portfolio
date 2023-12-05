@@ -41,7 +41,7 @@ const VideoComponent = () => {
       <div className="md:col-span-1 h-full md:h-auto flex flex-col justify-center text-white p-8 space-y-4">
         <div className="text-center">
           <h3 className="text-2xl md:text-3xl font-bold mb-4">
-            Play the Demo Video of Prototype MVP Showcasing
+            Play the Demo Video of the Prototype MVP Showcasing
           </h3>
           <p className="text-base md:text-lg mb-2">Click & Collect UI Flow</p>
           <p className="text-base md:text-lg">
