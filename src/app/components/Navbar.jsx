@@ -45,6 +45,8 @@ const Navbar = () => {
             src="/images/logofinal.png"
             width={70}
             height={70}
+            priority
+            layout="fixed"
           />
         </Link>
         <div className="mobile-menu block md:hidden">
