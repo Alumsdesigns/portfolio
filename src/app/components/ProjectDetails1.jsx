@@ -42,13 +42,13 @@ const ProjectDetails1 = ({ onClose }) => {
         {/* <img
           src="/images/FinalNoVideo.jpg"
           alt="Project Image"
-          className="w-full h-auto" /images/NoMoodboard.jpg"
+          className="w-full h-auto" /images/NoMoodboard.jpg" object-contain min-w-full min-h-full md:mx-0 md:my-0
         /> */}
 
         <img
           src="/images/heroimg.png"
           alt="Project Image"
-          className="object-contain min-w-full min-h-full"
+          className="object-contain w-full h-full mx-0 my-0"
         />
 
         <img
