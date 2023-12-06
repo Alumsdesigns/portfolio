@@ -33,19 +33,19 @@ const ProjectDetails1 = ({ onClose }) => {
       <div className="w-full h-full overflow-y-scroll flex flex-col">
         {/* Image Section */}
         {/* <Image
-          src="/images/FinalNoVideo.jpg"
-          alt="Project Image"
-          width={1920}
-          height={1080}
-          priority
-          layout="responsive"
-          className="w-full h-full"
-        /> */}
+            src="/images/FinalNoVideo.jpg"
+            alt="Project Image"
+            width={1920}
+            height={1080}
+            priority
+            layout="responsive"
+            className="w-full h-full"
+          /> */}
         {/* <img
-          src="/images/FinalNoVideo.jpg"
-          alt="Project Image"
-          className="w-full h-auto" /images/NoMoodboard.jpg" object-contain min-w-full min-h-full md:mx-0 md:my-0
-        /> */}
+            src="/images/FinalNoVideo.jpg"
+            alt="Project Image"
+            className="w-full h-auto" /images/NoMoodboard.jpg" object-contain min-w-full min-h-full md:mx-0 md:my-0
+          /> */}
 
         <img
           src="/images/heroImg.png"
@@ -54,7 +54,7 @@ const ProjectDetails1 = ({ onClose }) => {
         />
 
         <img
-          src="/images/NoHero.jpg"
+          src="/images/decemberAupdates.jpg"
           alt="Project Image"
           className="w-full h-auto"
         />
