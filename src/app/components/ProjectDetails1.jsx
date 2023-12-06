@@ -6,6 +6,8 @@ import VideoComponent from './VideoComponent';
 import Moodboard from './Moodboard';
 
 const ProjectDetails1 = ({ onClose }) => {
+  const titleFontClass = 'project-details1-contact-title';
+  const textFontClass = 'project-details1-contact-text';
   return (
     <div className="fixed top-0 left-0 right-0 bottom-0 flex flex-col items-center justify-center bg-black text-white">
       <div
@@ -76,7 +78,10 @@ const ProjectDetails1 = ({ onClose }) => {
         <LearningList />
 
         {/* ContactMe and Footer Sections */}
-        <ContactMe />
+        <ContactMe
+          titleFontClass={titleFontClass}
+          textFontClass={textFontClass}
+        />
         <Footer className="bg-black text-white" />
       </div>
     </div>

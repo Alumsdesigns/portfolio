@@ -4,15 +4,21 @@ import LinkedinIcon from '../../../public/linkedin-icon.svg';
 import Image from 'next/image';
 import styles from './ContactMe.module.css';
 
-const ContactMe = () => {
+const ContactMe = ({ titleFontClass, textFontClass }) => {
   return (
     <section
       id="contact"
       className="grid justify-center items-center my-10 md:my-20 lg:my-30 gap-4 relative bg-black"
     >
       <div className="z-10 text-center bg-black">
-        <h5 className="text-4xl font-bold text-white mb-4">Connect with me</h5>
-        <p className="text-[#ADB7BE] mb-4 text-white max-w-md">
+        <h5
+          className={`text-2xl md:text-3xl lg:text-4xl text-white font-bold mb-4 ${titleFontClass}`}
+        >
+          Connect with me
+        </h5>
+        <p
+          className={`mb-4 text-white max-w-md text-base md:text-lg lg:text-xl ${textFontClass}`}
+        >
           Collaborate together
         </p>
         <div className="socials flex justify-center gap-2 mb-6 bg-black">

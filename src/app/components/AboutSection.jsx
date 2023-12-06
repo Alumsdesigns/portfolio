@@ -712,7 +712,9 @@ const AboutSection = () => {
           />
         </div>
         <div className=" md:mt-0 mt-4 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-4">
+            About Me
+          </h2>
           <p className="text-white opacity-70 lg:text-lg">
             Hi, I am Damaris, and on a mission to elevate user experiences
             through the fusion of UX Research and UI Design. My unwavering
@@ -742,7 +744,7 @@ const AboutSection = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-col sm:flex-row justify-start mt-8 text-2xl font-bold lg:text-lg">
+      <div className="flex flex-col sm:flex-row justify-start mt-8 text-2xl md:text-3xl lg:text-4xl font-bold">
         <TabButton
           selectTab={() => handleTabChange('skills')}
           active={tab === 'skills'}

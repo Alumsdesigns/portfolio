@@ -101,15 +101,15 @@ const AchievementsSection = () => {
 
   // Render the component's UI
   return (
-    <div className="py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-      <div className="sm:border-[#33353F] sm:border rounded-md py-8 px-16 flex flex-col sm:flex-row items-center justify-between">
+    <div className="py-8 px-4 xl:gap-16 lg:py-14 lg:px-14 m-0">
+      <div className="sm:border-[#33353F] sm:border rounded-md py-8 px-8 flex flex-col sm:flex-row items-center justify-between">
         {achievementsList.map((achievement, index) => {
           return (
             <div
               key={index}
               className="flex flex-col items-center justify-center mx-4 my-4 sm:my-0"
             >
-              <h2 className="text-white text-4xl font-bold flex flex-row">
+              <h2 className="text-white text-2xl md:text-3xl lg:text-4xl font-bold flex flex-row">
                 {achievement.prefix}
                 {typeof animatedValues[index] === 'number'
                   ? achievement.metric === 'Projects'

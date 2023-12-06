@@ -1,4 +1,6 @@
 /* ContactMe.module.css */
+@import url('../font.css');
+
 .linkedinIcon {
   cursor: pointer;
   background-color: transparent; /* Initial background color is transparent */
@@ -8,4 +10,29 @@
 .linkedinIcon:hover {
   cursor: grab;
   background-color: #0077b5; /* Apply blue background color on hover */
+}
+
+/* Define additional styles for different components */
+.project-details1-contact-title {
+  font-size: 32px;
+  font-weight: bold;
+  /* Add specific styles for ProjectDetails1 */
+  color: red; /* Example: Change color to red */
+}
+
+.project-details1-contact-text {
+  font-family: 'Philosopher-Regular';
+  font-size: 28px;
+}
+
+/* Define responsive styles for different screen sizes */
+@media screen and (max-width: 600px) {
+  .project-details1-contact-title {
+    font-size: 24px; /* Example: Change font size to 24px for small screens */
+    color: purple;
+  }
+
+  .project-details1-contact-text {
+    font-size: 20px; /* Example: Change font size to 20px for small screens */
+  }
 }
