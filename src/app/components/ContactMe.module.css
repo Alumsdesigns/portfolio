@@ -12,6 +12,17 @@
   background-color: #0077b5; /* Apply blue background color on hover */
 }
 
+/* Default styles for ContactMe same as in Layout.js */
+.contact-title {
+  font-family: 'Inter-Bold', sans-serif;
+  font-size: 24px;
+}
+
+.contact-text {
+  font-family: 'Inter-Regular', sans-serif;
+  font-size: 18px;
+}
+
 /* Define additional styles for different components */
 .project-details1-contact-title {
   font-size: 32px;
@@ -33,6 +44,6 @@
   }
 
   .project-details1-contact-text {
-    font-size: 20px; /* Example: Change font size to 20px for small screens */
+    font-size: 14px; /* Example: Change font size to 20px for small screens */
   }
 }

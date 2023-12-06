@@ -2,23 +2,83 @@
 
 @import url('../font.css');
 
-.project-details-title {
-  font-family: 'Philosopher-Bold';
-}
-
 .project-details-text {
   font-family: 'Philosopher-Regular';
+  font-size: 28px;
+}
+
+.project-details-title {
+  font-family: 'Philosopher-Bold';
+  font-size: 36px;
+  font-weight: bold;
 }
 
 .learning-list-title {
   font-family: 'Philosopher-Bold';
-  font-size: 32px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.video-title {
+  font-family: 'Philosopher-Bold';
+  font-size: 28px;
   font-weight: bold;
 }
 
 .learning-list-text {
   font-family: 'Philosopher-Regular';
-  font-size: 28px;
+  font-size: 24px;
+}
+
+/* Define responsive styles for different screen sizes */
+@media screen and (max-width: 769px) {
+  .project-details-title {
+    font-size: 28px; /* Example: Change font size to 24px for small screens */
+    color: white;
+  }
+
+  .learning-list-title {
+    font-family: 'Philosopher-Bold';
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .video-title {
+    font-family: 'Philosopher-Bold';
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .learning-list-text {
+    font-family: 'Philosopher-Regular';
+    font-size: 18px; /* Example: Change font size to 20px for small screens */
+    color: white;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .project-details-title {
+    font-size: 20px; /* Example: Change font size to 24px for small screens */
+    color: white;
+  }
+
+  .video-title {
+    font-family: 'Philosopher-Bold';
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .learning-list-title {
+    font-family: 'Philosopher-Bold';
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .learning-list-text {
+    font-family: 'Philosopher-Regular';
+    font-size: 16px; /* Example: Change font size to 20px for small screens */
+    color: white;
+  }
 }
 
 .white-text {

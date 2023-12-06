@@ -3,21 +3,17 @@ import styles from './ProjectDetails1.module.css';
 
 const VideoComponent = () => {
   return (
-    <div className="bg-black md:h-auto grid md:grid-cols-2 text-start">
+    <div className="bg-black md:h-auto w-full grid md:grid-cols-2 text-start">
       {/* Left Column */}
-      <div className="md:col-span-1 h-full md:h-auto flex flex-col justify-center text-white p-8 space-y-4">
+      <div className="md:col-span-1 h-full md:h-auto flex flex-col justify-center text-white p-4 sm:p-8 space-y-4">
         <div className="">
-          <h3
-            className={`text-2xl md:text-3xlfont-bold mb-4 ${styles['learning-list-title']}`}
-          >
-            Play the demo video of the prototype MVP showcasing
+          <h3 className={`font-bold mb-4 ${styles['video-title']}`}>
+            Play the demo video
           </h3>
-          <p
-            className={` text-xl md:text-xl mb-2 ${styles['learning-list-text']}`}
-          >
+          <p className={`mb-2 ${styles['learning-list-text']}`}>
             1. Click & Collect UI Flow
           </p>
-          <p className={`text-xl md:text-xl  ${styles['learning-list-text']}`}>
+          <p className={`mb-2 ${styles['learning-list-text']}`}>
             2. Reservations / Bookings & Other User Interfaces
           </p>
         </div>

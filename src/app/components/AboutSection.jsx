@@ -33,7 +33,7 @@ const TAB_DATA = [
             ease: 'linear',
             loop: Infinity,
           }}
-          className="relative group bg-secondary-600 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+          className="relative group bg-secondary-600 text-white px-2 py-2 border-secondary-600 animate-shine border-4 rounded-lg text-center"
         >
           <span className="relative z-10">UX Design</span>
         </motion.li>
@@ -61,7 +61,7 @@ const TAB_DATA = [
             ease: 'linear',
             loop: Infinity,
           }}
-          className="relative group bg-secondary-600 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+          className="relative group bg-secondary-600 text-white px-2 py-2 border-secondary-600 animate-shine border-4 rounded-lg text-center"
         >
           <span className="relative z-10">User-centred Design</span>
         </motion.li>
@@ -75,7 +75,7 @@ const TAB_DATA = [
             ease: 'linear',
             loop: Infinity,
           }}
-          className="relative group bg-primary-500 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+          className="relative group bg-primary-700 text-white px-2 py-2 border-primary-700 animate-shine border-4 rounded-lg text-center"
         >
           <span className="relative z-10">Interaction design</span>
         </motion.li>
@@ -89,7 +89,7 @@ const TAB_DATA = [
             ease: 'linear',
             loop: Infinity,
           }}
-          className="relative group bg-secondary-600 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+          className="relative group bg-secondary-600 text-white px-2 py-2 border-secondary-600 animate-shine border-4 rounded-lg text-center"
         >
           <span className="relative z-10">Information Visualization</span>
         </motion.li>
@@ -117,7 +117,7 @@ const TAB_DATA = [
             ease: 'linear',
             loop: Infinity,
           }}
-          className="relative group bg-secondary-600 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+          className="relative group bg-secondary-600 text-white px-2 py-2 border-secondary-600 animate-shine border-4 rounded-lg text-center"
         >
           <span className="relative z-10">Figma</span>
         </motion.li>
@@ -144,7 +144,7 @@ const TAB_DATA = [
             ease: 'linear',
             loop: Infinity,
           }}
-          className="relative group bg-secondary-600 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+          className="relative group bg-secondary-600 text-white px-2 py-2 border-secondary-600 animate-shine border-4 rounded-lg text-center"
         >
           <span className="relative z-10">User Journeys</span>
         </motion.li>
@@ -172,7 +172,7 @@ const TAB_DATA = [
             ease: 'linear',
             loop: Infinity,
           }}
-          className="relative group bg-secondary-600 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+          className="relative group bg-secondary-600 text-white px-2 py-2 border-secondary-600 animate-shine border-4 rounded-lg text-center"
         >
           <span className="relative z-10">Usability Testing</span>
         </motion.li>
@@ -200,7 +200,7 @@ const TAB_DATA = [
             ease: 'linear',
             loop: Infinity,
           }}
-          className="relative group bg-secondary-600 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+          className="relative group bg-secondary-600 text-white px-2 py-2 border-secondary-600 animate-shine border-4 rounded-lg text-center"
         >
           <span className="relative z-10">Site Maps</span>
         </motion.li>
@@ -228,7 +228,7 @@ const TAB_DATA = [
             ease: 'linear',
             loop: Infinity,
           }}
-          className="relative group bg-secondary-600 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+          className="relative group bg-secondary-600 text-white px-2 py-2 border-secondary-600 animate-shine border-4 rounded-lg text-center"
         >
           <span className="relative z-10">Wireframing</span>
         </motion.li>
@@ -466,7 +466,7 @@ const TAB_DATA = [
             ease: 'linear',
             loop: Infinity,
           }}
-          className="relative group bg-primary-700 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+          className="relative group bg-primary-700 text-white px-2 py-2 border-primary-700 animate-shine border-4 rounded-lg text-center"
         >
           <span className="relative z-10">Accessibility WCAG</span>
         </motion.li>
@@ -480,7 +480,7 @@ const TAB_DATA = [
             ease: 'linear',
             loop: Infinity,
           }}
-          className="relative group bg-secondary-600 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+          className="relative group bg-secondary-600 text-white px-2 py-2 border-secondary-600 animate-shine border-4 rounded-lg text-center"
         >
           <span className="relative z-10">Responsive Web Design</span>
         </motion.li>
@@ -494,7 +494,7 @@ const TAB_DATA = [
             ease: 'linear',
             loop: Infinity,
           }}
-          className="relative group bg-primary-700 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+          className="relative group bg-primary-700 text-white px-2 py-2 border-primary-700 animate-shine border-4 rounded-lg text-center"
         >
           <span className="relative z-10"> Shopify & Wix Development</span>
         </motion.li>
@@ -508,7 +508,7 @@ const TAB_DATA = [
             ease: 'linear',
             loop: Infinity,
           }}
-          className="relative group bg-secondary-600 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+          className="relative group bg-secondary-600 text-white px-2 py-2 border-secondary-600 animate-shine border-4 rounded-lg text-center"
         >
           <span className="relative z-10">Cross-functional Collaboration</span>
         </motion.li>
@@ -522,7 +522,7 @@ const TAB_DATA = [
             ease: 'linear',
             loop: Infinity,
           }}
-          className="relative group bg-primary-700 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+          className="relative group bg-primary-700 text-white px-2 py-2 border-primary-700 animate-shine border-4 rounded-lg text-center"
         >
           <span className="relative z-10">Heuristic Evaluation</span>
         </motion.li>
@@ -536,7 +536,7 @@ const TAB_DATA = [
             ease: 'linear',
             loop: Infinity,
           }}
-          className="relative group bg-secondary-600 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+          className="relative group bg-secondary-600 text-white px-2 py-2 border-secondary-600 animate-shine border-4 rounded-lg text-center"
         >
           <span className="relative z-10">User-Centered Design</span>
         </motion.li>
@@ -549,7 +549,7 @@ const TAB_DATA = [
             ease: 'linear',
             loop: Infinity,
           }}
-          className="relative group bg-primary-500 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+          className="relative group bg-primary-700 text-white px-2 py-2 border-primary-700 animate-shine border-4 rounded-lg text-center"
         >
           <span className="relative z-10">Photoshop</span>
         </motion.li>
@@ -562,7 +562,7 @@ const TAB_DATA = [
             ease: 'linear',
             loop: Infinity,
           }}
-          className="relative group bg-secondary-500 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+          className="relative group bg-secondary-600 text-white px-2 py-2 border-secondary-600 animate-shine border-4 rounded-lg text-center"
         >
           <span className="relative z-10">Motion Design (Animation)</span>
         </motion.li>
@@ -575,7 +575,7 @@ const TAB_DATA = [
             ease: 'linear',
             loop: Infinity,
           }}
-          className="relative group bg-primary-500 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+          className="relative group bg-primary-700 text-white px-2 py-2 border-primary-700 animate-shine border-4 rounded-lg text-center"
         >
           <span className="relative z-10">Information Design</span>
         </motion.li>
@@ -588,7 +588,7 @@ const TAB_DATA = [
             ease: 'linear',
             loop: Infinity,
           }}
-          className="relative group bg-secondary-500 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+          className="relative group bg-secondary-600 text-white px-2 py-2 border-secondary-600 animate-shine border-4 rounded-lg text-center"
         >
           <span className="relative z-10">A/B Testing</span>
         </motion.li>
@@ -601,7 +601,7 @@ const TAB_DATA = [
             ease: 'linear',
             loop: Infinity,
           }}
-          className="relative group bg-primary-500 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+          className="relative group bg-primary-700 text-white px-2 py-2 border-primary-700 animate-shine border-4 rounded-lg text-center"
         >
           <span className="relative z-10">Content Strategy</span>
         </motion.li>
@@ -614,7 +614,7 @@ const TAB_DATA = [
             ease: 'linear',
             loop: Infinity,
           }}
-          className="relative group bg-secondary-500 text-white px-2 py-2 border-secondary-500 animate-shine border-4 rounded-lg text-center"
+          className="relative group bg-secondary-600 text-white px-2 py-2 border-secondary-600 animate-shine border-4 rounded-lg text-center"
         >
           <span className="relative z-10">User Analytics</span>
         </motion.li>
@@ -627,7 +627,7 @@ const TAB_DATA = [
             ease: 'linear',
             loop: Infinity,
           }}
-          className="relative group bg-primary-500 text-white px-2 py-2 border-primary-500 animate-shine border-4 rounded-lg text-center"
+          className="relative group bg-primary-700 text-white px-2 py-2 border-primary-700 animate-shine border-4 rounded-lg text-center"
         >
           <span className="relative z-10">
             User Testing and Research Methods
