@@ -1,28 +1,24 @@
 import React from 'react';
 import styles from './ProjectDetails1.module.css';
-{
-  `text-4xl md:text-4xl font-bold mb-4 text-center ${styles['learning-list-title']}`;
-}
+
 const VideoComponent = () => {
   return (
-    <div className="bg-black md:h-auto grid md:grid-cols-2">
+    <div className="bg-black md:h-auto grid md:grid-cols-2 text-start">
       {/* Left Column */}
       <div className="md:col-span-1 h-full md:h-auto flex flex-col justify-center text-white p-8 space-y-4">
-        <div className="text-center">
+        <div className="">
           <h3
-            className={`text-2xl md:text-3xl font-bold mb-4 ${styles['learning-list-title']}`}
+            className={`text-2xl md:text-3xlfont-bold mb-4 ${styles['learning-list-title']}`}
           >
-            Play the Demo Video of the Prototype MVP Showcasing
+            Play the demo video of the prototype MVP showcasing
           </h3>
           <p
-            className={`text-center md:text-center text-xl md:text-xl  mb-2 ${styles['learning-list-text']}`}
+            className={` text-xl md:text-xl mb-2 ${styles['learning-list-text']}`}
           >
-            Click & Collect UI Flow
+            1. Click & Collect UI Flow
           </p>
-          <p
-            className={`text-center md:text-center text-xl md:text-xl  ${styles['learning-list-text']}`}
-          >
-            Reservations / Bookings & Other User Interfaces
+          <p className={`text-xl md:text-xl  ${styles['learning-list-text']}`}>
+            2. Reservations / Bookings & Other User Interfaces
           </p>
         </div>
       </div>
