@@ -744,7 +744,7 @@ const AboutSection = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-col sm:flex-row justify-start mt-8 text-2xl md:text-3xl lg:text-4xl font-bold">
+      <div className="flex flex-col sm:flex-row justify-start mt-8 text-xl md:text-3xl lg:text-3xl font-bold">
         <TabButton
           selectTab={() => handleTabChange('skills')}
           active={tab === 'skills'}
