@@ -101,7 +101,7 @@ const AchievementsSection = () => {
 
   // Render the component's UI
   return (
-    <div className="py-8 px-4 xl:gap-16 lg:py-14 lg:px-14 m-0">
+    <div className="py-8 px-4 xl:gap-16 lg:py-14 lg:px-8">
       <div className="sm:border-[#33353F] sm:border rounded-md py-8 px-8 flex flex-col sm:flex-row items-center justify-between">
         {achievementsList.map((achievement, index) => {
           return (
