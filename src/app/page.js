@@ -13,9 +13,9 @@ export default function Home() {
       <Navbar />
       <div className="container mt-24 mx-auto px-12 py-0">
         <HeroSection />
-        <AchievementsSection />
-        <AboutSection />
         <ProjectsSection />
+        {/* <AchievementsSection />
+        <AboutSection /> */}
         <ContactMe />
       </div>
       <Footer />

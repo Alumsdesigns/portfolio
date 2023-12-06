@@ -10,7 +10,7 @@ import ProjectDetails3 from './ProjectDetails3';
 const projectsData = [
   {
     id: 1,
-    title: 'Mobile Alumnus Steakhouse & Bar App',
+    title: 'First ever project',
     description: 'Full case study transforming the CX in the food industry',
     image: '/images/projects/1.png',
     tag: ['All', 'Mobile'],

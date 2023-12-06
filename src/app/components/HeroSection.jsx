@@ -37,6 +37,13 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+            I am passionate UX/UI designer dedicated to creating inclusive
+            digital spaces. I believe design can drive positive change, solving
+            real-world problems. Let us connect and embark on a transformative
+            design journey together.{' '}
+          </p>
+
+          {/* <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
             Welcome, I am dedicated to enhancing online experiences for all,
             achieving business goals, and prioritizing user-centric design.
             Explore my projects and LinkedIn.
@@ -49,9 +56,9 @@ const HeroSection = () => {
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
             I invite you to view projects below. Let us embark on a design
             transformation journey together!
-          </p>
+          </p> */}
           <div>
-            <Link
+            {/* <Link
               href="https://www.linkedin.com/in/damaris-alum/"
               passHref
               className="px-6 inline-block py-3 rounded-full
@@ -60,7 +67,7 @@ const HeroSection = () => {
             >
               {' '}
               Hire Me
-            </Link>
+            </Link> */}
             {/* <Link
               href="https://www.linkedin.com/in/damaris-alum/"
               passHref
